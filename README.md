@@ -21,6 +21,7 @@
 7. Интерпретация результатов
 
 ## Структура проекта
-В соответствии с http://drivendata.github.io/cookiecutter-data-science/
+В соответствии с [cookiecutter](http://drivendata.github.io/cookiecutter-data-science/)
+
 ![Screenshot](structure.png)
 
