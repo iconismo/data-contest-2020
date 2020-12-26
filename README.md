@@ -22,5 +22,6 @@
 
 ## Структура проекта
 В соответствии с [cookiecutter](http://drivendata.github.io/cookiecutter-data-science/)
+
 ![Screenshot](structure.png)
 
