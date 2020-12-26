@@ -20,4 +20,4 @@
 6. Кластерный анализ
 7. Интерпретация результатов
 
-Организация проекта на github в соответствии с http://drivendata.github.io/cookiecutter-data-science/
+Организация проекта в соответствии с http://drivendata.github.io/cookiecutter-data-science/
