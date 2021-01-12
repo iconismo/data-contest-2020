@@ -1,44 +1,36 @@
-title
-names of authors
-their affiliations
-contacts
-date of publication
+Название: Выделение группы ВУЗов со схожими финансовыми показателями
+Авторы: Бобкова Анастасия, Бобков Владимир
+Контакты: 
+Дата публикации: 12.01.2021
 
-Table of contents(ToC)
+# Оглавление
 
-Abstract
+# Abstract
 Цель - выделить группы ВУЗов со схожими финансовыми показателями.
 
-Введение
+# Введение
 
-Data Section
-1. Создание набора данных с названием ВУЗа и его ИНН
-Реализация в файле notebooks\1-loading-inn.ipynb
+# Используемые данные
+- Создание набора данных с названием ВУЗа и его ИНН. Реализация в файле notebooks\1-loading-inn.ipynb.
+- Создание набора данных с ИНН вуза, годом отчета и финансовыми показателями. Реализация в файле notebooks\2-loading-fin-data.ipynb.
+- Очистка набора данных. Реализация в файле notebooks\3-data-cleaning.ipynb.
 
-2. Создание набора данных с ИНН вуза, годом отчета и финансовыми показателями
-Реализация в файле notebooks\2-loading-fin-data.ipynb
+# Используемые методы
 
-3. Очистка набора данных
-Реализация в файле notebooks\3-data-cleaning.ipynb
+# Анализ
+- Вычисление корреляции между финансовыми показателями. Реализация в файле notebooks\4-calculating-correlation.ipynb.
+- Выявление группы ВУЗов, в отчетах которых встречаются аномальные значения. Реализация в файле notebooks\5-analysis-of-abnormal-values.ipynb.
+- Масштабирование данных. Реализация в файле notebooks\6-data-scaling.ipynb.
+- Кластерный анализ. Реализация в файле notebooks\7-cluster-analysis.ipynb.
 
-Методология
+# Результаты
+Интерпретация результатов. Реализация в файле notebooks\8-interpreting-results.ipynb.
 
-Анализ
-4. Вычисление корреляции между финансовыми показателями
-Реализация в файле notebooks\4-calculating-correlation.ipynb
-5. Выявление группы ВУЗов, в отчетах которых встречаются аномальные значения
-Реализация в файле notebooks\5-analysis-of-abnormal-values.ipynb
-6. Масштабирование данных
-Реализация в файле notebooks\6-data-scaling.ipynb
-7. Кластерный анализ
-Реализация в файле notebooks\7-cluster-analysis.ipynb
+# Заключение
 
-Результаты
-8. Интерпретация результатов
-Реализация в файле notebooks\8-interpreting-results.ipynb
+# Ссылки
 
-Заключение
-
-Ссылки
-
-Приложение
+# Приложение
+- https://medium.com/@yrnigam/how-to-write-a-data-science-report-181bd49d8f4d
+- https://datascience.stackexchange.com/questions/6736/do-you-have-any-real-example-of-data-science-reports
+- https://www.linkedin.com/pulse/how-write-up-analyticsdata-science-projects-harry-powell/
